@@ -1,0 +1,8 @@
+{
+    "@@locale": "fr",
+    "helloWorld": "Bonjour le monde!",
+    "home": "Accueil",
+    "search": "Recherche",
+    "ticket": "Tickets",
+    "profile": "Profile"
+}

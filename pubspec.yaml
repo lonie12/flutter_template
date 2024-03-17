@@ -1,0 +1,56 @@
+name: mainuse
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  dio: ^5.4.1
+  iconsax: ^0.0.8
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  carbon_icons: ^0.0.1+2
+  build_runner: ^2.4.8
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  riverpod_annotation: ^2.3.5
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  freezed: ^2.4.7
+  hive_generator: ^2.0.1
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.4.0
+  custom_lint: ^0.6.2
+  riverpod_lint: ^2.3.10
+
+flutter:
+  generate: true
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/svgs/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-Light.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+    - family: CircularStd
+      fonts:
+        - asset: assets/fonts/CircularStd-Book.ttf
+        - asset: assets/fonts/CircularStd-BookItalic.ttf
+          style: italic
