@@ -5,7 +5,9 @@
         "description": "The conventional newborn programmer greeting"
     },
     "home": "Home",
-    "search": "Search",
-    "ticket": "Tickets",
-    "profile": "Profile"
+    "service": "Services",
+    "activity": "Activity",
+    "setting": "Settings",
+    "months": "Months",
+    "days": "Days"
 }

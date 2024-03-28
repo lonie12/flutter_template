@@ -2,7 +2,9 @@
     "@@locale": "fr",
     "helloWorld": "Bonjour le monde!",
     "home": "Accueil",
-    "search": "Recherche",
-    "ticket": "Tickets",
-    "profile": "Profile"
+    "service": "Services",
+    "activity": "Mon activité",
+    "setting": "Paramètres",
+    "months": "Mois",
+    "days": "Jours"
 }
